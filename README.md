@@ -13,9 +13,9 @@
 
 
 <h2>Como rodar:</h2>
-```bash
-# Clone este repositório
-$ git clone <https://github.com/thiagosesquivel/inema-front>
+ <h4>Clone este repositório com o comando abaixo:</h4>
+
+` git clone <https://github.com/thiagosesquivel/inema-front>`
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd inema-front
