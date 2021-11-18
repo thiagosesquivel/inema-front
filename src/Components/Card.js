@@ -2,7 +2,7 @@ import React from 'react';
 
 function Card({cronograma}){
     return (
-        <div className="bg-blue w-full p-4">
+        <div className="bg-blue w-full h-56 p-4">
             {cronograma.map(c=>{
                 return(
                     <div className="flex flex-col mb-4">

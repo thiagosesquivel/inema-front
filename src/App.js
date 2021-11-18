@@ -42,20 +42,20 @@ const cronograma = [
 
 
   return (
-    <div className="flex flex-col lg:w-full max-w-5xl self-center justify-self-center">
+    <div className="flex flex-col lg:w-full max-w-5xl  self-center justify-self-center">
         <Header items={items} />
         <div id="inicio" className="w-full h-auto relative">
           <img src={logo} className="w-full h-auto block"/>
         </div>
         <main className="bg-lightPink w-full h-auto flex justify-center">
-            <div className="lg:w-5/6 w-4/5 h-auto bg-white  p-8 lg:p-14 relative -top-28">
+            <div className="lg:w-5/6 w-4/5 h-auto bg-white  p-18 lg:p-16 lg:pt-12 relative -top-28">
                 <div className="flex w-full lg:flex-row flex-col">
-                  <Content id="concurso" title="O CONCURSO" className="lg:w-4/6 w-full lg:mr-12 lg:p-4">
+                  <Content id="concurso" title="O CONCURSO" className="lg:w-3/6 w-full lg:mr-16 lg:p-4">
                       <p>
                         Concurso de fotografia para todos os técnicos do Inema para exposição de fotos que retratem a temática água (os desafios e as belezas encontradas em campo) pelos colaboradores. Além de uma apresentação cultural com um artista de rua (poesia, musica, cordel) que aborde a temática água. 
                       </p>
                   </Content>
-                  <div className="flex flex-col lg:w-2/6 w-full h-auto justify-center items-center  top-0  lg:relative lg:-top-20">
+                  <div className="flex flex-col lg:w-2/5 w-full h-auto justify-center items-center p-4 top-0  lg:relative lg:-top-28">
                       <Card cronograma={cronograma} />
                       <Button className="bg-blue mt-20 text-white text-opacity-70 hover:bg-opacity-90 p-2 pl-6 pr-6">FAÇA SUA INSCRIÇÃO</Button>
                   </div>
