@@ -18,14 +18,17 @@
 ` git clone https://github.com/thiagosesquivel/inema-front.git`
 
 <h4>Acesse a pasta do projeto no terminal/cmd:</h4>
+
 `cd inema-front`
 
 <h4>Instale as dependências com um dos comandos abaixo:</h4>
+
 `yarn`
 ou 
 `npm install`
 
 <h4>Inicie a aplicacao com um dos comandos abaixo:</h4>
+
 `yarn start`
  ou 
  `npm run start`
