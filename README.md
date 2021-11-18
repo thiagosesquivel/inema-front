@@ -13,17 +13,19 @@
 
 
 <h2>Como rodar:</h2>
- <h4>Clone este repositório com o comando abaixo:</h4>
+<h4>Abra o terminal e clone este repositório com o comando abaixo:</h4>
 
-` git clone <https://github.com/thiagosesquivel/inema-front>`
+` git clone https://github.com/thiagosesquivel/inema-front.git`
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd inema-front
+<h4>Acesse a pasta do projeto no terminal/cmd:</h4>
+`cd inema-front`
 
-# Rode o comando
+<h4>Instale as dependências com um dos comandos abaixo:</h4>
+`yarn`
+ou 
+`npm install`
 
-$yarn 
-ou npm install
-
-#Start a aplicacao com os comandos
-$yarn start ou npm run start
+<h4>Inicie a aplicacao com um dos comandos abaixo:</h4>
+`yarn start`
+ ou 
+ `npm run start`
