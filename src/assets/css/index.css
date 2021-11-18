@@ -1,9 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 
 .active {
     border-bottom: 1px solid #1B546F;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
 }
 
